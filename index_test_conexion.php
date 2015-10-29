@@ -8,7 +8,7 @@ if(!$conn )
 {
      exit ("Fallo la Conexion: " . $conn);
 }
-$sql="SELECT FECHA_INICIO AS FECHA,DESCRIPCION_LARGA AS CICLOO FROM CAT_CICLO_ESCOLAR";
+$sql="SELECT FECHA_INICIO AS FECHA,DESCRIPCION_LARGA AS CICLO FROM CAT_CICLO_ESCOLAR";
 $rs=odbc_exec($conn,$sql);
 if (!$rs)
 {
