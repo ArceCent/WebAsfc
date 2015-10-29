@@ -1,0 +1,176 @@
+*{
+	padding:0;
+	margin:0;
+	border:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.Header{
+	background:#FFF;
+	position:fixed;
+	z-index:1000;
+	top:0;
+	width:100%;
+	box-shadow:0px 5px 3px rgba(0,0,0,.4);
+}
+section.Margen{
+	width:80%;
+	max-width:100%;
+	margin:0 auto;
+}
+img.Logo{
+	width:65%;
+	opacity:1;
+	-webkit-transition:opacity .5s;
+}
+img.LogoEducamos{
+	width:50%;
+	opacity:1;
+	-webkit-transition:opacity .5s;
+}
+img.RedesSociales{
+	width:10%;
+	opacity:0.5;
+}
+img.RedesSociales:hover{
+	opacity:1;
+	-webkit-transition:opacity 0.5s;
+}
+div.LogoAsfc{
+	width:30%;
+}
+div.LogoEducamos{
+	width:20%;
+}
+div.LogoRedes{
+	width:19%;
+	
+}
+div.Contactanos{
+	width:10%;
+}
+div.LogoAsfc,div.LogoEducamos,div.LogoRedes,div.Contactanos{
+	display:inline-block;
+	vertical-align:middle;
+}
+footer.Footer{
+	background:#4e87b7;
+}
+section.Slider{
+	width:100%;
+	background:#212121;
+}
+.ImgSlider{
+	width:100%;
+	height:500px;
+}
+
+.Menu{
+	width:80%;
+	background:#FFF;
+	padding:1em;
+}
+.TimeLineRedes{
+	width:18%;
+	background:#FE2EC8;
+}
+.Menu,.TimeLineRedes{
+	display:inline-block;
+	vertical-align:top;
+}
+.Botones{
+	width:200px;
+	height:230px;
+	float:left;
+	padding:0.5em;
+	-webkit-transition:height .4s;
+}
+#Lowerschool{
+	background-color:rgb(208,101,3);
+}
+#Middleschool{
+	background-color:rgb(233,147,26);
+}
+#Highschool{
+	background-color:rgb(22,145,190);
+}
+#Certification{
+	background-color:rgb(22,107,162);
+}
+#Student{
+	background-color:rgb(22,54,71);
+}
+#Academies{
+	background-color:rgb(21,40,54);
+}
+.menu-fixed{
+
+}
+img.icono{
+	display: block;
+	margin:50px auto;
+	background-color:rgba(255,255,255,0.15);
+	width:60px;
+	padding:5px;
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow:0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+}
+.text{
+	font-size:1.2em;
+	color:white;
+	text-align:center;
+	font-family:"Arial";
+	padding-top:10px;
+	opacity:.6;
+	-webkit-transition:padding-top .4s;	
+}
+div.Botones:hover p.text{
+	padding-top:30px;
+	opacity:1;
+}
+div.Botones:hover img.icono{
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+.Logo:hover{
+	opacity:0.6;
+	-webkit-transition:opacity .5s;
+}
+
+img.LogoEducamos:hover{
+	opacity:0.6;
+	-webkit-transition:opacity .5s;
+}
+#Contactanos{
+	background-color:rgb(22,145,190);
+	padding:1em;
+	font-family:"Arial";
+	color:#FFF;
+	border-radius:1em 0 1em 0;
+	-webkit-transition:border-radius 1s;
+	box-shadow:0px 2px 10px #212121;
+}
+#Contactanos:hover{
+	border-radius:0 1em 0 1em;
+	-webkit-transition:border-radius 1s;
+	box-shadow:0px 2px 10px #212121;
+}
+section.Articulos,aside.TimeLineRedes{
+	display:inline-block;
+}
+section.Articulos{
+	background:#FFF;
+	padding:1em;
+	width:80%;
+	text-align:center;
+}
+.Titulo{
+	background-color:rgb(22,145,190);
+	color:#FFF;
+	font-family:"Arial";
+	padding:1em;
+}
+
+
+
